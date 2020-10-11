@@ -31,13 +31,14 @@
  }
 
  .transition-image {
-   background: url("girl.jpg") center center fixed;
+   background: image-url("girl.jpg") center center fixed;
    display: grid;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
  }
+ 
  .layer3 {
    background-color: rgba(255,255,255, 0.9);
  }
