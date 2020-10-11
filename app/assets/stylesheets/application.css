@@ -13,3 +13,35 @@
  *= require_tree .
  *= require_self
  */
+
+ body{
+   font-family: 'Lato', sans-serif;
+ }
+
+ h1 {
+   font-family: "Amatic SC", sans-serif;
+ }
+
+ .break1, .break2, .contact h2, .contact h3, p, header h4 {
+   font-family: "Coming Soon", sans-serif;
+ }
+
+ h5 {
+   font-family: "Amatic SC", sans-serif;
+ }
+
+ .transition-image {
+   background: url("girl.jpg") center center fixed;
+   display: grid;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+ }
+ .layer3 {
+   background-color: rgba(255,255,255, 0.9);
+ }
+
+.grey, .red{ min-height: 50px; margin-bottom: 10px; }
+.grey{ background-color: lightgrey; }
+.red{ background-color: lightred; }
