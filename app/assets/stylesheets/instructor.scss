@@ -1,5 +1,5 @@
  .instructor {
-   background: url("sensei2.jpg");
+   background: image-url("sensei2.jpg");
  }
 
  .instructor a {
@@ -13,7 +13,7 @@
  }
 
  .image-blurred-edge {
-   background: url("sensei.jpg");
+   background: image-url("sensei.jpg");
    background-size: cover;
    box-shadow: 0 0 50px 28px #76422d inset;
    width: 100%;
