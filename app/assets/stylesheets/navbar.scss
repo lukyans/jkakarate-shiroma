@@ -2,7 +2,7 @@
   margin-top:0px;
   margin-bottom:0px;
   width:100%;
-  border-top: 1px solid black;;
+  border-top: 1px solid black;
 }
 
  .navbar-default h1 {
@@ -19,6 +19,13 @@
    font-size: 17px;
    font-family: "News Cycle";
  }
+
+ .navbar .navbar-brand {
+   line-height: 1.3;
+
+   font-family: "News Cycle";
+ }
+
  /* .navbar-default h5 {
    color: #34262B;
    font-size: 150px;
@@ -30,10 +37,7 @@
    font-weight: bold;
  }
 
-.navbar-brand {
-  font-size: 25px;
-  font-family: "News Cycle";
-}
+
 
 /* .navbar-default {
   background-color: #fff;
