@@ -17,22 +17,22 @@
             </video>
           </div>
         </div>
-        <div class="carousel-item data-interval="2000"">
+        <div class="carousel-item" data-interval="2000">
           <div class="intro">
             <%= image_tag "home2.jpg", class: "img-responsive", width: "100%" %>
           </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-interval="2000">
           <div class="intro">
             <%= image_tag "home.jpg", class: "img-responsive", width: "100%" %>
           </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-interval="2000">
           <div class="intro">
             <%= image_tag "home3.jpg", class: "img-responsive", width: "100%" %>
           </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-interval="2000">
           <div class="intro">
             <%= image_tag "home4.jpg", class: "img-responsive", width: "100%" %>
           </div>
@@ -55,155 +55,102 @@
   </header>
 
 <!----INSTRUCTOR---->
-<div class="instructor" id="startchange">
-  <a name="instructor"></a>
-  <div class="container-fluid">
-    <div class="row text-center">
-      <div class="descript col-xs-12 col-sm-12 col-md-12">
-        <h1>INSTRUCTOR</h1>
-        <div class="mb-5 h3">Isami Shiroma</div>
-        <div class="row text-white instructor-colored-bg p-5 text-center">
+<a name="instructor"></a>
+<div class="instructor text-center instructor-descript">
+  <h1>ISAMI SHIROMA</h1>
+  <div class="h3 mt-1 mb-4">Instructor</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-4 text-left">
+        <%= image_tag "sensei2.jpg", class: "img-responsive", height: "200px" %>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <%= image_tag "sensei3.jpg", class: "img-responsive", height: "200px" %>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4 text-right">
+        <%= image_tag "sensei4.jpg", class: "img-responsive", height: "200px" %>
+      </div>
+    </div>
+  </div>
 
-          <div class="col-xs-12 col-sm-6 col-md-9 instructor-layer h6 ml-3 p-3">
-            <div class="row">
-              <div class="col-5"></div>
-              <div class="col-7">
-                <div class="mb-1">Born in Okinawa, Japan</div>
-                <div class="mb-1">7th Dan Japan Karate Association</div>
-                <div class="mb-1">A-Class Instructor</div>
-                <div class="mb-1">A-Class Judge</div>
-                <div class="mb-1">A-Class Examiner</div>
-                <div class="mb-1">Founding Member of Hokubei Shihan Kai</div>
-                <div class="mb-1">www.hokubeishihankai.org</div>
-                <div class="mb-1">Co-founder of Karate Federation of Colombia, 1971</div>
-                <div class="mb-1">Liga De Karate-Do of Atlantico (Barranquilla Colombia)</div>
-                <div class="mb-1">Liga De Karate-Do of Bolivar (Cartagena)</div>
-                <div class="mb-1">Founded Academia De Karate Colombo-Japones Isami-Dojo en Barranquilla-1971</div>
-                <div class="mb-1">1985 Judge at the Pan American Games at Rio De Janeiro, Brazil</div>
-                <div class="mb-1">Technical advisor for JKA Colombia www.jkacolombia.org</div>
-                <div class="mb-1">2004 Shotocup Judge, Tokyo Japan</div>
-                <div class="mb-1">Karate Club at New York University Medical School</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row instructor-rowoverlay">
-          <div class="col-xs-2 col-xs-offset-5 red instructor-coloverlay">
-            <%= image_tag "sensei_resized.jpg", class: "img-responsive", height: "100%" %>
-          </div>
-        </div>
+  <div class="container mt-5">
+    <div class="row text-dark text-center">
+      <div class="col-xs-12 col-sm-12 col-md-6 instructor-overlay">
+        <%= image_tag "sensei.jpg", class: "img-responsive img-fluid", height: "100%" %>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 instructor-layer text-center">
+        <div>Born in Okinawa, Japan</div>
+        <div>7th Dan Japan Karate Association</div>
+        <div>A-Class Instructor</div>
+        <div>A-Class Judge</div>
+        <div>A-Class Examiner</div>
+        <div>Founding Member of Hokubei Shihan Kai</div>
+        <div>www.hokubeishihankai.org</div>
+        <div>Co-founder of Karate Federation of Colombia, 1971</div>
+        <div>Liga De Karate-Do of Atlantico (Barranquilla Colombia)</div>
+        <div>Liga De Karate-Do of Bolivar (Cartagena)</div>
+        <div>Founded Academia De Karate Colombo-Japones Isami-Dojo en Barranquilla-1971</div>
+        <div>1985 Judge at the Pan American Games at Rio De Janeiro, Brazil</div>
+        <div>Technical advisor for JKA Colombia www.jkacolombia.org</div>
+        <div>2004 Shotocup Judge, Tokyo Japan</div>
+        <div>Karate Club at New York University Medical School</div>
       </div>
     </div>
   </div>
 </div>
 <!----INSTRUCTOR END---->
 
-<div class="transition-image">
+<div class="break1">
   <div class="layer3">
-    <br><br><br><br>
   </div>
 </div>
-
-
-<!----PHYIOSOPHY---->
-<div class="break2 text-center">
-  <div class="layer2">
-    <a name="philosophy"></a>
-    <div class="philosophy" id="startchange">
-      <div class="container-fluid">
-          <div class="descript col-xs-12 col-sm-12 col-md-12">
-            <h1>PHILOSOPHY</h1>
-            <div class="row no-gutter mt-5">
-              <div class="col-xs-12 col-sm-6 col-md-6">
-                <%= image_tag "boy.jpg", class: "img-responsive", width: "100%" %>
-              </div>
-              <div class="col-xs-12 col-sm-6 col-md-6 text-white text-justify pt-3 pb-5 pl-3 pr-3">
-                <h4>The Way of Balance</h4>
-                <p>
-                At the JKA, we put immense focus on the proper form and balance of each kihon, or basic technique. Through extensive training, our instructors have rigorously, scientifically analyzed and separated out each individual movement in each individual kata, and developed an unrivalled spectrum of kihon techniques. Using these special kihon, we have refined the kata to be more applicable in kumite. And in turn, the experience accumulated through kumite gives feedback to further perfect one’s kihon and kata. In this way kihon, kata and kumite form the inseparable trinity of JKA karate. Through constant repetition of such techniques, your body learns to move effortlessly, naturally. And your mind learns to be effortless and natural too. JKA karate is the way of balance.
-                </p>
-              </div>
-            </div>
-            <div class="row no-gutter">
-              <div class="col-xs-12 col-sm-6 col-md-6 text-white text-justify pt-3 pb-0 pl-3 pr-3">
-                <h4>Forging a Karate Mind</h4>
-                <p>
-                Karate is not a game of points, weight classes or showy demonstrations. It is a martial art and way of life that trains a practitioner to be peaceful; but if conflict is unavoidable, true karate dictates taking down an opponent with a single blow.<br>
-                Such an action requires strength, speed, focus, control. But these physical aspects are only part of the practice; they are just the vehicle, not the journey itself.
-
-                True karate is based on Bushido. In true karate, the body, mind and spirit—the whole person—must be developed simultaneously. Through kihon, kumite and kata we learn to control our movements. But more importantly, we learn to give up control too. We can perform the techniques without thinking about them, and remain focused without having to concentrate on any one thing. In essence, the body remembers how to move and the mind remembers how to be still.
-
-                This harmonious unity of mind and body is intensely powerful. Even the greatest physical strength and skill are no match for the power of wholeness.
-
-                The result of true karate is natural, effortless action, and the confidence, humility, openness and peace only possible through perfect unity of mind and body. This is the core teaching of Zen, the basis of Bushido, and the basis of the JKA’s karate philosophy.
-                </p>
-              </div>
-              <div class="col-xs-12 col-sm-6 col-md-6">
-                <%= image_tag "girl.jpg", class: "img-responsive", width: "100%" %>
-              </div>
-            </div>
-        </div>
-      </div>
-    </div>
-    </div>
-</div>
-<!----INSTRUCTOR---->
+<!----INSTRUCTOR--
 
 
 <!----SCHEDULE---->
-
-<div class="break1 container-fluid text-center">
-  <div class="layer">
-    <div class="schedule" id="startchange">
-      <a name="schedule"></a>
-      <div class="container-fluid">
-        <div class="row text-center">
-          <div class="descript col-xs-12 col-sm-12 col-md-12">
-            <h1>CLASS SCHEDULE</h1>
-              <div class="mb-5 h3 text-white">Long Island City</div>
-            <div class="row text-white colored-bg p-5 text-right">
-              <div class="col-11">
-                  <div>
-                    <strong>At the LIC Art Center</strong>
-                  </div>
-                  <div class="mb-3">
-                    2nd Floor Room 209
-                    44-02 23rd Street
-                    Long Island City, NY 11101
-                  </div>
-                  <div class="mb-3">
-                    Tuesday:
-                    7:30-9:00pm
-                  </div>
-                  <div class="mb-3">
-                    Thursday:
-                    7:30-9:00pm
-                  </div>
-                  <div class="mb-3">
-                    Saturday:
-                    10:00-11:00am
-                    11:00-12:00pm
-                  </div>
-                  <div class="mb-3">
-                    Directions:<br>
-                    Conveniently Located near trains<br>
-                    Q, N, 7 (get off at Queensboro Plaza Station)<br>
-                    & R, M, E (get off at Queens Plaza Station)<br>
-                    And MTA Bus #32, 60, 66, 100 & 102
-                  </div>
-                  <div class="mb-3">
-                    Visitor Contribution is $20
-                  </div>
-              </div>
-              <div class="row rowoverlay">
-                <div class="col-xs-2 col-xs-offset-5 red coloverlay">
-                  <%= image_tag "kicking_on_floor.jpg", class: "img-responsive", height: "550px" %>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+<a name="schedule"></a>
+<div class="schedule text-center schedule-descript">
+  <h1>CLASS SCHEDULE</h1>
+  <div class="h3 mb-5 text-dark">Long Island City</div>
+  <div class="row text-dark mt-5">
+    <div class="col-xs-12 col-sm-12 col-md-6">
+      <div class="mb-3d ">
+        <strong>At the LIC Art Center</strong>
       </div>
+      <div class="mb-3">
+        2nd Floor Room 209
+        44-02 23rd Street
+        Long Island City, NY 11101
+      </div>
+      <div class="mb-3">
+        Tuesday:
+        7:30-9:00pm
+      </div>
+      <div class="mb-3">
+        Thursday:
+        7:30-9:00pm
+      </div>
+      <div class="mb-3">
+        Saturday:
+        10:00-11:00am
+        11:00-12:00pm
+      </div>
+      <div class="mb-3">
+        Directions:<br>
+        Conveniently Located near trains<br>
+        Q, N, 7 (get off at Queensboro Plaza Station)<br>
+        & R, M, E (get off at Queens Plaza Station)<br>
+        And MTA Bus #32, 60, 66, 100 & 102
+      </div>
+      <div class="mb-3">
+        Visitor Contribution is $20
+      </div>
+      <div class="schedule-overlay mt-5">
+        <%= image_tag "dojo3.jpg", class: "img-responsive img-fluid" %>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-6 schedule-overlay">
+      <%= image_tag "class.jpg", class: "img-responsive img-fluid" %>
     </div>
   </div>
 </div>
