@@ -2,49 +2,45 @@
   /* background-color: #78531b; */
 }
 
+.schedule-descript {
+  margin-bottom: 8%;
+}
+
 .schedule h1 {
-  color: white;
-  font-size: 100px;
-  margin-top: 9%;
+  color: #333333;
+  font-size: 80px;
+  margin-top: 8%;
+  margin-bottom: 0px;
 }
 
-.colored-bg{
- background-color: rgba(0, 0, 0, 0.8);
+.schedule h3 {
+  color: #333333;
 }
 
-.rowoverlay{
- position: absolute;
- top: 10;
- left:10;
- z-index:1;
- bottom:0;
- right:10;
- height:70%;
+// .colored-bg{
+//  background-color: rgba(0, 0, 0, 0.8);
+// }
+
+.schedule-overlay {
+  opacity: 0.8;
 }
+
+// .rowoverlay{
+//  position: absolute;
+//  top: 10;
+//  left:10;
+//  z-index:1;
+//  bottom:0;
+//  right:10;
+//  height:70%;
+// }
 
 .coloverlay{
- background-color: rgba(233, 33, 33, .4);
- border: 1px solid red;
- height: 100%;
+ // background-color: rgba(233, 33, 33, .4);
+ // border: 1px solid red;
+ // height: 100%;
 }
 
-.break1 {
-  background: image-url("liberty.jpg") center center fixed;
-  /* background: url(https://images.unsplash.com/photo-1432836431433-925d3cc0a5cd?fit=crop&fm=jpg&h=700&q=80&w=1050) center center fixed; */
-  display: grid;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.layer1 {
-   background-color: rgba(255,0,0, 0.2);
- }
-
-.break1 h3 {
-  color: #fff;
-  font-size: 70px;
-  margin-top: 15%;
-  margin-bottom: 15%;
-}
+// .layer1 {
+//    background-color: rgba(255,255,255, 0.8);
+//  }
