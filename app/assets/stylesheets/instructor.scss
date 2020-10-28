@@ -1,5 +1,5 @@
  .instructor {
-   background: image-url("sensei2.jpg");
+   // background: image-url("sensei2.jpg");
  }
 
  .instructor a {
@@ -8,41 +8,53 @@
 
  .instructor h1 {
    color: #212529;
-   font-size: 100px;
-   margin-top: 9%;
+   font-size: 80px;
+   margin-top: 8%;
+   margin-bottom: 0px;
  }
 
- .image-blurred-edge {
-   background: image-url("sensei.jpg");
-   background-size: cover;
-   box-shadow: 0 0 50px 28px #76422d inset;
-   width: 100%;
-   height: 700px;
-}
+//  .image-blurred-edge {
+//    background: image-url("sensei.jpg");
+//    background-size: cover;
+//    box-shadow: 0 0 50px 28px #76422d inset;
+//    width: 100%;
+//    height: 700px;
+// }
 
 .instructor-layer {
   font-family: 'Lato', sans-serif;
-  background-color: rgba(255, 0, 0, 0.1);
+  font-size: 17px;
+  // background-color: rgba(0, 0, 0, 0.8);
 }
+
+.instructor-descript {
+  margin-bottom: 8%;
+}
+
 
 .instructor-colored-bg{
- background-color: rgba(0, 0, 0, 0.5);
+ // background-color: rgba(0,0,0, 0.1);
+ // margin-top: 100px;
 }
 
-.instructor-rowoverlay{
- position: absolute;
- top: 250px;
- margin-top: 40px;
- left:25px;
- /* z-index:1; */
- bottom:0;
- right:0;
- height:74%;
- opacity: .9;
+.instructor-margin-top {
+  margin-top: 400px;
+}
+
+.instructor-overlay{
+ // position: absolute;
+ // top: 223px;
+ // margin-top: 155px;
+ // left:25px;
+ // /* z-index:1; */
+ // bottom:0;
+ // right:0;
+ // height:112%;
+ opacity: .8;
 }
 
 .instructor-coloverlay{
  /* background-color: rgba(233, 33, 33, .4); */
  border: 1px solid red;
- height: 90%;
+ height: 50%;
 }
