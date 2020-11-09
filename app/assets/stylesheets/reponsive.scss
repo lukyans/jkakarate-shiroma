@@ -6,9 +6,12 @@
 
 
 @media (min-width: 300px) and (max-width: 479px) {
-  header h1, .instructor h1, .works h1, .contact h1 {
-    font-size: 50px;
-    margin-bottom: 15%;
+  header h1, .instructor h1, .schedule h1, .contact h1 {
+    font-size: 30px;
+  }
+
+  body .schedule h1{
+    font-size: 30px;
   }
 
   header h4 {
@@ -24,8 +27,12 @@
     font-size: 12px;
   }
 
-  .instructor-p {
-    font-size: 14px;
+  video {
+    height: 151px;
+  }
+
+  .intro {
+    margin-top: 29%;
   }
 
   .contact i {
