@@ -1,17 +1,14 @@
- .instructor {
-   // background: image-url("sensei2.jpg");
- }
 
- .instructor a {
-   font-family: "News Cycle", serif;
- }
+.instructor h1 {
+ color: #212529;
+ font-size: 80px;
+ margin-top: 8%;
+ margin-bottom: 0px;
+}
 
- .instructor h1 {
-   color: #212529;
-   font-size: 80px;
-   margin-top: 8%;
-   margin-bottom: 0px;
- }
+.instructor-descript {
+  margin-bottom: 8%;
+}
 
 //  .image-blurred-edge {
 //    background: image-url("sensei.jpg");
@@ -26,11 +23,6 @@
   font-size: 17px;
   // background-color: rgba(0, 0, 0, 0.8);
 }
-
-.instructor-descript {
-  margin-bottom: 8%;
-}
-
 
 .instructor-colored-bg{
  // background-color: rgba(0,0,0, 0.1);
