@@ -1,4 +1,3 @@
-
 .schedule h1 {
   color: #333333;
   font-size: 80px;
@@ -14,13 +13,15 @@
   color: #333333;
 }
 
+.schedule-overlay {
+  opacity: 0.8;
+}
+
 // .colored-bg{
 //  background-color: rgba(0, 0, 0, 0.8);
 // }
 
-.schedule-overlay {
-  opacity: 0.8;
-}
+
 
 // .rowoverlay{
 //  position: absolute;
@@ -32,11 +33,11 @@
 //  height:70%;
 // }
 
-.coloverlay{
+// .coloverlay{
  // background-color: rgba(233, 33, 33, .4);
  // border: 1px solid red;
  // height: 100%;
-}
+// }
 
 // .layer1 {
 //    background-color: rgba(255,255,255, 0.8);

@@ -10,14 +10,6 @@
   margin-bottom: 8%;
 }
 
-//  .image-blurred-edge {
-//    background: image-url("sensei.jpg");
-//    background-size: cover;
-//    box-shadow: 0 0 50px 28px #76422d inset;
-//    width: 100%;
-//    height: 700px;
-// }
-
 .instructor-layer {
   font-family: 'Lato', sans-serif;
   font-size: 17px;
@@ -33,6 +25,20 @@
   margin-top: 400px;
 }
 
+.instructor-coloverlay{
+ /* background-color: rgba(233, 33, 33, .4); */
+ border: 1px solid red;
+ height: 50%;
+}
+
+//  .image-blurred-edge {
+//    background: image-url("sensei.jpg");
+//    background-size: cover;
+//    box-shadow: 0 0 50px 28px #76422d inset;
+//    width: 100%;
+//    height: 700px;
+// }
+
 .instructor-overlay{
  // position: absolute;
  // top: 223px;
@@ -43,10 +49,4 @@
  // right:0;
  // height:112%;
  opacity: .8;
-}
-
-.instructor-coloverlay{
- /* background-color: rgba(233, 33, 33, .4); */
- border: 1px solid red;
- height: 50%;
 }

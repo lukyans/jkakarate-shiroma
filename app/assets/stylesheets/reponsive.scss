@@ -28,10 +28,16 @@
   }
 
   video {
-    height: 187px;
+    height: 206px;
+    position: relative;
+  // padding-bottom: 56.25%;
   }
 
   .break1 {
+    display: none;
+  }
+
+  .break-responsive {
     display: none;
   }
 
