@@ -1,0 +1,60 @@
+@media (min-width: 1200px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+
+@media (min-width: 300px) and (max-width: 479px) {
+  header h1, .instructor h1, .schedule h1, .contact h1 {
+    font-size: 30px;
+  }
+
+  body .schedule h1{
+    font-size: 30px;
+  }
+
+  header h4 {
+    font-size: 20px;
+    margin-bottom: 15%;
+  }
+
+  .navbar .navbar-brand .logo-upper-text {
+    font-size: 16px;
+  }
+
+  .navbar .navbar-brand .logo-lower-text {
+    font-size: 12px;
+  }
+
+  video {
+    height: 206px;
+    position: relative;
+  // padding-bottom: 56.25%;
+  }
+
+  .break1 {
+    display: none;
+  }
+
+  // ### Schedule ###
+  .schedule .row {
+    margin-right: 0;
+  }
+
+  .break-responsive {
+    display: none;
+  }
+
+  .intro {
+    margin-top: 22%;
+  }
+
+  .contact i {
+    font-size: 500%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {}
+
+@media (min-width: 576px) and (max-width: 767px) {}
