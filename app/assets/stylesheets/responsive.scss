@@ -4,8 +4,7 @@
 
 @media (min-width: 768px) and (max-width: 991px) {}
 
-
-@media (min-width: 300px) and (max-width: 479px) {
+@media (min-width: 360px) and (max-width: 374px) {
   header h1, .instructor h1, .schedule h1, .contact h1 {
     font-size: 30px;
   }
@@ -28,7 +27,140 @@
   }
 
   video {
-    height: 90%;
+    height: 177px;
+    position: relative;
+  // padding-bottom: 56.25%;
+  }
+
+  .break1-display-none {
+    display: none;
+  }
+
+  // ### Instructor ###
+  .mobile-margin {
+    margin-top: 3px;
+  }
+
+  // ### Schedule ###
+  .schedule .row {
+    margin-right: 0;
+    .col-sm-12 {
+      padding-right: 0;
+    }
+  }
+
+  // ### Philosophy ###
+  .philosophy {
+    margin-top: 32%;
+    h1{
+      font-size: 30px;
+    }
+
+  }
+
+  .break-responsive {
+    display: none;
+  }
+
+  .intro {
+    margin-top: 22%;
+  }
+
+  .contact i {
+    font-size: 500%;
+  }
+}
+@media (min-width: 375px) and (max-width: 389px) {
+  header h1, .instructor h1, .schedule h1, .contact h1 {
+    font-size: 30px;
+  }
+
+  body .schedule h1{
+    font-size: 30px;
+  }
+
+  header h4 {
+    font-size: 20px;
+    margin-bottom: 15%;
+  }
+
+  .navbar .navbar-brand .logo-upper-text {
+    font-size: 19px;
+  }
+
+  .navbar .navbar-brand .logo-lower-text {
+    font-size: 15px;
+  }
+
+  video {
+    height: 183px;
+    position: relative;
+  // padding-bottom: 56.25%;
+  }
+
+  .break1-display-none {
+    display: none;
+  }
+
+  // ### Instructor ###
+  .mobile-margin {
+    margin-top: 3px;
+  }
+
+  // ### Schedule ###
+  .schedule .row {
+    margin-right: 0;
+    .col-sm-12 {
+      padding-right: 0;
+    }
+  }
+
+  // ### Philosophy ###
+  .philosophy {
+    margin-top: 32%;
+    h1{
+      font-size: 30px;
+    }
+
+  }
+
+  .break-responsive {
+    display: none;
+  }
+
+  .intro {
+    margin-top: 22%;
+  }
+
+  .contact i {
+    font-size: 500%;
+  }
+}
+// @media (min-width: 300px) and (max-width: 479px) {
+@media (min-width: 390px) and (max-width: 479px) {
+  header h1, .instructor h1, .schedule h1, .contact h1 {
+    font-size: 30px;
+  }
+
+  body .schedule h1{
+    font-size: 30px;
+  }
+
+  header h4 {
+    font-size: 20px;
+    margin-bottom: 15%;
+  }
+
+  .navbar .navbar-brand .logo-upper-text {
+    font-size: 19px;
+  }
+
+  .navbar .navbar-brand .logo-lower-text {
+    font-size: 15px;
+  }
+
+  video {
+    height: 203px;
     position: relative;
   // padding-bottom: 56.25%;
   }
