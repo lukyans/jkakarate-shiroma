@@ -92,6 +92,13 @@
     font-size: 15px;
   }
 
+  .intro-alert {
+    margin-top: 23%;
+    .alert {
+      // margin-bottom: 0rem;
+   }
+  }
+
   video {
     height: 183px;
     position: relative;
@@ -129,7 +136,7 @@
   }
 
   .intro {
-    margin-top: 22%;
+    // margin-top: 22%;
   }
 
   .contact i {
@@ -152,11 +159,11 @@
   }
 
   .navbar .navbar-brand .logo-upper-text {
-    font-size: 19px;
+    font-size: 24px;
   }
 
   .navbar .navbar-brand .logo-lower-text {
-    font-size: 15px;
+    font-size: 19px;
   }
 
   .intro-alert {
