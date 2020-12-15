@@ -1,183 +1,46 @@
 @media (min-width: 1200px) {}
-
 @media (min-width: 992px) and (max-width: 1199px) {}
-
 @media (min-width: 768px) and (max-width: 991px) {}
-
 @media (min-width: 360px) and (max-width: 374px) {
-  header h1, .instructor h1, .schedule h1, .contact h1 {
-    font-size: 30px;
-  }
-
-  body .schedule h1{
-    font-size: 30px;
-  }
-
-  header h4 {
-    font-size: 20px;
-    margin-bottom: 15%;
-  }
-
-  .navbar .navbar-brand .logo-upper-text {
-    font-size: 19px;
-  }
-
-  .navbar .navbar-brand .logo-lower-text {
-    font-size: 15px;
-  }
-
   video {
     height: 177px;
     position: relative;
-  // padding-bottom: 56.25%;
-  }
-
-  .break1-display-none {
-    display: none;
-  }
-
-  // ### Instructor ###
-  .mobile-margin {
-    margin-top: 3px;
-  }
-
-  // ### Schedule ###
-  .schedule .row {
-    margin-right: 0;
-    .col-sm-12 {
-      padding-right: 0;
-    }
-  }
-
-  // ### Philosophy ###
-  .philosophy {
-    margin-top: 32%;
-    h1{
-      font-size: 30px;
-    }
-
-  }
-
-  .break-responsive {
-    display: none;
-  }
-
-  .intro {
-    margin-top: 22%;
-  }
-
-  .contact i {
-    font-size: 500%;
   }
 }
 @media (min-width: 375px) and (max-width: 389px) {
-  header h1, .instructor h1, .schedule h1, .contact h1 {
-    font-size: 30px;
-  }
-
-  body .schedule h1{
-    font-size: 30px;
-  }
-
-  header h4 {
-    font-size: 20px;
-    margin-bottom: 15%;
-  }
-
-  .navbar .navbar-brand .logo-upper-text {
-    font-size: 19px;
-  }
-
-  .navbar .navbar-brand .logo-lower-text {
-    font-size: 15px;
-  }
-
-  .intro-alert {
-    margin-top: 23%;
-    .alert {
-      // margin-bottom: 0rem;
-   }
-  }
-
   video {
     height: 183px;
     position: relative;
-  // padding-bottom: 56.25%;
-  }
-
-  .break1-display-none {
-    display: none;
-  }
-
-  // ### Instructor ###
-  .mobile-margin {
-    margin-top: 3px;
-  }
-
-  // ### Schedule ###
-  .schedule .row {
-    margin-right: 0;
-    .col-sm-12 {
-      padding-right: 0;
-    }
-  }
-
-  // ### Philosophy ###
-  .philosophy {
-    margin-top: 32%;
-    h1{
-      font-size: 30px;
-    }
-
-  }
-
-  .break-responsive {
-    display: none;
-  }
-
-  .intro {
-    // margin-top: 22%;
-  }
-
-  .contact i {
-    font-size: 500%;
   }
 }
-// @media (min-width: 300px) and (max-width: 479px) {
-@media (min-width: 390px) and (max-width: 479px) {
-  header h1, .instructor h1, .schedule h1, .contact h1 {
-    font-size: 30px;
-  }
-
-  body .schedule h1{
-    font-size: 30px;
-  }
-
-  header h4 {
-    font-size: 20px;
-    margin-bottom: 15%;
+@media (min-width: 300px) and (max-width: 479px) {
+  body {
+    .title {
+      font-size: 1.75rem;
+    }
+    .sub-title {
+      font-size: 1.25rem;
+    }
   }
 
   .navbar .navbar-brand .logo-upper-text {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .navbar .navbar-brand .logo-lower-text {
-    font-size: 19px;
+    font-size: 17px;
   }
 
   .intro-alert {
     margin-top: 23%;
     .alert {
-      // margin-bottom: 0rem;
+      margin-bottom: 0rem;
    }
   }
-
 
   video {
     height: 203px;
     position: relative;
-  // padding-bottom: 56.25%;
   }
 
   .break1-display-none {
@@ -197,13 +60,13 @@
     }
   }
 
+  .schedule {
+    // margin-top: 32%;
+  }
+
   // ### Philosophy ###
   .philosophy {
     margin-top: 32%;
-    h1{
-      font-size: 30px;
-    }
-
   }
 
   .break-responsive {

@@ -61,140 +61,26 @@
   </header>
 
 <!----INSTRUCTOR---->
-<a name="instructor"></a>
-<div class="instructor text-center instructor-descript">
-  <h1>ISAMI SHIROMA</h1>
-  <div class="h3 mt-1 mb-4">Instructor</div>
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-4">
-        <%= image_tag "sensei2.jpg", class: "img-responsive img-fluid" %>
-      </div>
-      <div class="col-xs-12 col-sm-12 col-md-4 mobile-margin">
-        <%= image_tag "sensei3.jpg", class: "img-responsive img-fluid" %>
-      </div>
-      <div class="col-xs-12 col-sm-12 col-md-4 mobile-margin">
-        <%= image_tag "sensei4.jpg", class: "img-responsive img-fluid" %>
-      </div>
-    </div>
-  </div>
+<%= render partial: "instructor" %>
 
-  <div class="container mt-5">
-    <div class="row text-dark text-center">
-      <div class="col-xs-12 col-sm-12 col-md-6 instructor-overlay">
-        <%= image_tag "sensei.jpg", class: "img-responsive img-fluid", height: "100%" %>
-      </div>
-      <div class="col-xs-12 col-sm-12 col-md-6 instructor-layer text-center">
-        <div>Born in Okinawa, Japan</div>
-        <div>7th Dan Japan Karate Association</div>
-        <div>A-Class Instructor</div>
-        <div>A-Class Judge</div>
-        <div>A-Class Examiner</div>
-        <div>Founding Member of Hokubei Shihan Kai</div>
-        <div>www.hokubeishihankai.org</div>
-        <div>Co-founder of Karate Federation of Colombia, 1971</div>
-        <div>Liga De Karate-Do of Atlantico (Barranquilla Colombia)</div>
-        <div>Liga De Karate-Do of Bolivar (Cartagena)</div>
-        <div>Founded Academia De Karate Colombo-Japones Isami-Dojo en Barranquilla-1971</div>
-        <div>1985 Judge at the Pan American Games at Rio De Janeiro, Brazil</div>
-        <div>Technical advisor for JKA Colombia www.jkacolombia.org</div>
-        <div>2004 Shotocup Judge, Tokyo Japan</div>
-        <div>Karate Club at New York University Medical School</div>
-      </div>
-    </div>
-  </div>
-</div>
-<!----INSTRUCTOR END---->
+<!----BREAK 1---->
 <div class="break1-display-none">
   <div class="break1">
     <div class="layer3">
     </div>
   </div>
 </div>
-<!----INSTRUCTOR--
 
 
 <!----SCHEDULE---->
-<a name="schedule"></a>
-<div class="schedule text-center schedule-descript">
-  <h1>CLASS SCHEDULE</h1>
-  <div class="h3 mb-5 text-dark">Long Island City</div>
-  <div class="row text-dark mt-5">
-    <div class="col-xs-12 col-sm-12 col-md-6">
-      <div class="mb-3d ">
-        <strong>At the LIC Art Center</strong>
-      </div>
-      <div class="mb-3">
-        2nd Floor Room 209
-        44-02 23rd Street
-        Long Island City, NY 11101
-      </div>
-      <div class="mb-3">
-        Tuesday:
-        7:30-9:00pm
-      </div>
-      <div class="mb-3">
-        Thursday:
-        7:30-9:00pm
-      </div>
-      <div class="mb-3">
-        Saturday:
-        10:00-11:00am
-        11:00-12:00pm
-      </div>
-      <div class="mb-3">
-        Directions:<br>
-        Conveniently Located near trains<br>
-        Q, N, 7 (get off at Queensboro Plaza Station)<br>
-        & R, M, E (get off at Queens Plaza Station)<br>
-        And MTA Bus #32, 60, 66, 100 & 102
-      </div>
-      <div class="mb-3">
-        Visitor Contribution is $20
-      </div>
-      <div class="schedule-overlay mt-5">
-        <%= image_tag "dojo3.jpg", class: "img-responsive img-fluid" %>
-      </div>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-6 schedule-overlay">
-      <%= image_tag "class.jpg", class: "img-responsive img-fluid" %>
-    </div>
+<%= render partial: "schedule" %>
+
+<!----BREAK 2---->
+<div class="works">
+  <a name="works"></a>
+  <div class="container-fluid">
   </div>
 </div>
 
-  <!----SERVICES---->
-  <div class="works">
-    <a name="works"></a>
-    <div class="container-fluid">
-    </div>
-  </div>
-
 <%= render partial: "contacts" %>
 <%= render partial: "shared/footer" %>
-
-
-
-  <!-- <script>
-    $(document).ready(function() {
-      var scroll_start = 0;
-      var startchange = $('#startchange');
-      var offset = startchange.offset();
-      console.log(startchange)
-
-      if (startchange.length) {
-
-        $(document).scroll(function() {
-          scroll_start = $(this).scrollTop();
-          console.log(scroll_start)
-          if (scroll_start > offset.top) {
-            console.log("test")
-            console.log(offset.top)
-            // $(".navbar-default").css('background-color', '#c1292e');
-          } else {
-            console.log("test")
-            // $('.navbar-default').css('background-color', '#ffffff');
-          }
-        });
-      }
-    });
-  </script> -->
