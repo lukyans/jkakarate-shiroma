@@ -159,6 +159,14 @@
     font-size: 15px;
   }
 
+  .intro-alert {
+    margin-top: 23%;
+    .alert {
+      // margin-bottom: 0rem;
+   }
+  }
+
+
   video {
     height: 203px;
     position: relative;
@@ -196,7 +204,7 @@
   }
 
   .intro {
-    margin-top: 22%;
+    // margin-top: 22%;
   }
 
   .contact i {
